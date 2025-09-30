@@ -112,6 +112,5 @@ const botReplies = [
 ];
 
 module.exports.run = async function ({ api, event }) {
-  const reply = botReplies[Math.floor(Math.random() * botReplies.length)];
-  api.sendMessage(reply, event.threadID, event.messageID);
-};
+  const axios = require("axios");
+const simsim = "https://baby.cyberbot.top";
